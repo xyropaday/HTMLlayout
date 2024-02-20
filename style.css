@@ -19,24 +19,24 @@ body {
     grid-column-gap: 5px;
     grid-column: ;
     background-color: #f3d113;
-    align-items: center;
-    justify-content: center;
+    
+    
 
 }
 .t2{
     padding: 5px 5px;
-    width: 310px;
+    
     background-color: white;
     border-radius: 5px;
     margin-bottom: 5px;
 
     }
-    @media screen and (max-width: 1000px;){
+    @media screen and (max-width: 768px){
         .t1{
             grid-template-columns: repeat(2, 1fr);
         }
     }
-    @media screen and (max-width: 768px;){
+    @media screen and (max-width: 500px){
         .t1{
             grid-template-columns: repeat(1, 1fr);
         }
